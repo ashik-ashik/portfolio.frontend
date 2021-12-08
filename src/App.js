@@ -13,7 +13,9 @@ import Contact from "./Components/Contact/Contact";
 import ProjectDetail from "./Components/ProjectDetail/ProjectDetail";
 import AllProjects from "./Components/AllProjects/AllProjects";
 import Skills from "./Components/Skills/Skills";
+import initializeFirebase from "./firebase/firebase.init/firebase.init";
 
+initializeFirebase();
 
 function App() {
   return (
